@@ -6,4 +6,13 @@ def main(s):
     Returns:
         int: answer
     """
-    return
+    n1 = s%10
+    s = s//10
+    n2 = s%10
+    s = s//10
+    n3 = s%10
+    s = s//10
+    n4 = s%10
+    s = s//10
+    return n1+n2+n3+n4+s
+print(main(2360))
