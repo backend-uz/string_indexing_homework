@@ -10,4 +10,4 @@ def main(s):
         return s.index('*')
     else:
         return False
-print(main('ds*jd'))
+print(main('2*44'))
