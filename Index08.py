@@ -6,5 +6,8 @@ def main(s):
     Returns:
         int: answer
     """
-    return
-        
+    if s.find('*'):
+        return s.index('*')
+    else:
+        return False
+print(main('ds*jd'))
